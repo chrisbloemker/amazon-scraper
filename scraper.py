@@ -1,16 +1,5 @@
 # Amazon.com Price Scraper WIP
 
-# Things to do:
-'''
-- Make the email use the URL variable instead of hardcoded text
-- Use environment variables for the email credentials
-- Cleaner way to extract the price into a float from a string. (Limitations right now are digit length of price
-- Replace email route with a slack webhook.
-- Have program exit when an email has been set to avoid email storm
-- Figure out how to input more than 1 price check item
-- Convert into web app using bottle/flask
-'''
-
 import requests
 from bs4 import BeautifulSoup
 import smtplib
